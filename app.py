@@ -5,9 +5,10 @@ import PyPDF2
 
 from utils import extract_text_from_image, extract_text_from_pdf, load_csv_data
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.vectorstores import Chroma
-from langchain.llms import HuggingFacePipeline
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores import Chroma
+from langchain_community.llms import HuggingFacePipeline
+
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 from transformers import pipeline

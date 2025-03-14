@@ -3,5 +3,6 @@ LLM TASK 4: REAL‑TIME FINANCIAL ASSISTANT CHATBOT WITH MULTI‑MODAL CONTEXT R
 
 #ARCHITECTURE DIAGRAM
 
-![image](https://github.com/user-attachments/assets/dd073f80-074b-4841-b2db-54857fe1af84)
+![image](https://github.com/user-attachments/assets/5c849587-3a71-4ec3-b198-6a8810972e30)
+
 

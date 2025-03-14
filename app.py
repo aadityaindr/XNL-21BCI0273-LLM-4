@@ -1,6 +1,6 @@
 import os
 import streamlit as st
-import yfinance as yf
+#import yfinance as yf
 import PyPDF2
 
 from utils import extract_text_from_image, extract_text_from_pdf, load_csv_data
@@ -14,6 +14,14 @@ from langchain.prompts import PromptTemplate
 from transformers import pipeline
 
 # ---------------- LLM Initialization ----------------
+import yfinance as yf
+
+try:
+    stock = yf.Ticker("GOOG")
+    data = stock.history(period="1d")
+    print(data)
+except Exception as e:
+    st.error(f"Error fetching stock data: {e}")
 def initialize_llm():
     model_name = "EleutherAI/gpt-neo-125M"  # Free, open-source model
     generator = pipeline(

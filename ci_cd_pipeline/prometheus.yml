@@ -1,0 +1,27 @@
+scrape_configs:
+  - job_name: "streamlit-app"
+    static_configs:
+      - targets: ["localhost:8501"]
+
+
+# command for OWASP ZAP for security audit
+# this is the code : docker run -v $(pwd):/zap/wrk owasp/zap2docker-stable zap-baseline.py -t http://localhost:8501 -r zap-report.html 
+# How to Use These Codes:
+
+    # Unit Tests & Integration Tests:
+    # Run frequently during development.
+
+    # End-to-End Tests:
+    # Run in CI/CD pipelines before deployment.
+
+    # API & Load Tests:
+    # Run periodically or after major updates to ensure scalability.
+
+    # Model Drift Detection:
+    # Run periodically to ensure model accuracy over time.
+
+    # Continuous Feedback Loop & Retraining:
+    # Set up automated retraining pipelines to ensure continuous improvement.
+
+    # Monitoring & Security Audits:
+    # Regularly monitor system performance and security vulnerabilities.

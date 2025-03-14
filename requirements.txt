@@ -1,0 +1,16 @@
+streamlit
+langchain
+chromadb
+pandas
+numpy
+PyPDF2
+pytesseract
+sentence-transformers
+yfinance
+matplotlib
+alpha_vantage
+coingecko-api
+mlflow
+prometheus-client
+docker
+kubernetes

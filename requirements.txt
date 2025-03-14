@@ -14,3 +14,7 @@ mlflow
 prometheus-client
 docker
 kubernetes
+langchain
+transformers
+sentence-transformers
+chromadb

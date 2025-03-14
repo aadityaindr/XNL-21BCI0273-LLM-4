@@ -55,7 +55,8 @@ D:\genAI
 
 #Architecture Diagram
 
-![image](https://github.com/user-attachments/assets/5c849587-3a71-4ec3-b198-6a8810972e30)
+![image](https://github.com/user-attachments/assets/0d70075e-795a-4661-bd82-8e25f9d67ade)
+
 
 ## Installation
 

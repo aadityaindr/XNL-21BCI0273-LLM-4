@@ -2,6 +2,8 @@ streamlit
 langchain
 chromadb
 pandas
+pysqlite3-binary
+
 numpy
 PyPDF2
 pytesseract
